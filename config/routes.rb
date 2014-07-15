@@ -1,5 +1,7 @@
  Rails.application.routes.draw do
 
+  get 'profiles/show'
+
   devise_for :users
 
   devise_scope :user do
@@ -11,5 +13,7 @@
   resources :statuses
   get 'feed', to: 'statuses#index'
   root to: 'statuses#index'
+
+  get '/:id', to: 'profiles#show'
 
 end

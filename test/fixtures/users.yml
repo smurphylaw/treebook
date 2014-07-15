@@ -4,3 +4,8 @@ james:
   email: "bond@bookmi6.uk"
   username: "jamesbond"
   
+john:
+  first_name: "John"
+  last_name: "McClane"
+  email: "McClane@diehard.com"
+  username: "mcclane"
